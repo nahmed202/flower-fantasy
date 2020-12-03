@@ -105,12 +105,12 @@ body{
   width: 100vw;
   height: 100vh;
 
-  background-image: url(../images/background.png);
+  background-image: url(../images/flowerbg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
 
-  font-family: "fairplex-wide";
+  font-family: "fantasy";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -199,10 +199,10 @@ input[type=text], input[type=password], input[type=email] {
     background: transparent;
     outline: none;
 
-    font-family: "fairplex-wide";
+    font-family: "fantasy";
     font-size: 24px;
     opacity: 1;
-    color: white;
+    color: black;
     font-weight: 400;
 
     -webkit-transition: border-bottom 0.4s ease-in-out;
@@ -219,7 +219,7 @@ input[type=text]:valid, input[type=password]:valid {
 } /* This is a quick fix to get an authorization / valid entry state without using JS */
 
 input[type=submit] {
-    width: 200px;
+    width: 400px;
     background-color: white;
     color: #f50856;
     padding: 14px 20px;
@@ -229,7 +229,7 @@ input[type=submit] {
     cursor: pointer;
     display: block;
 
-    font-family: "fairplex-wide";
+    font-family: "fantasy";
     font-size: 24px;
     opacity: 1;
     font-weight: 700;
@@ -246,28 +246,28 @@ input[type=submit]:hover {
 
 
 ::-webkit-input-placeholder { /* Chrome */
-  color: white;
-  font-style: italic;
+  color: #50856;
+  font-style: fantasy;
   opacity: .4;
 
-  font-family: "fairplex-wide";
-  color: white;
+  font-family: "fantasy";
+  color: #50856;
   font-weight: 400;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: white;
-  font-style: italic;
+  color: #50856;
+  font-style: fantasy;
   opacity: .4;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: white;
+  color: #50856;
   opacity: .4;
-  font-style: italic;
+  font-style: fantasy;
 }
 :-moz-placeholder { /* Firefox 4 - 18 */
-  color: white;
+  color: #50856;
   opacity: .4;
-  font-style: italic;
+  font-style: fantasy;
 }
 
 
@@ -277,10 +277,11 @@ input[type=submit]:hover {
 /* Typography */
 
 h1{
-  color: white;
+  font-family: fantasy;
+  color: black;
   font-size: 48px;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
   text-align: center;
   margin: 10px 0;
